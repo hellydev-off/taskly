@@ -1,0 +1,65 @@
+@tailwind utilities;
+
+@theme {
+  --color-background: #ffffff;
+  --color-todoist-red: #e44332;
+
+  --color-todoist-red-light1: #f39b8a;
+  --color-todoist-red-light2: #f7ccc7;
+  --color-todoist-red-lighter: #fdeded;
+  --color-hover-gray: #fbe8e5;
+
+  --color-todoist-gray: #373737;
+  --color-text-black: black;
+  --color-todoist-darkgray: #373737;
+  --color-todoist-textdark: #3d3c3c;
+  --color-todoist-lightgray: #f7f7f7;
+}
+
+.input-focus-color {
+  @apply border-[color:var(--color-todoist-red-light1)];
+}
+
+.bg-background {
+  @apply bg-[color:var(--color-background)];
+}
+
+.bg-todoist-red {
+  @apply bg-[color:var(--color-todoist-red)];
+}
+
+.bg-todoist-red-light1 {
+  @apply bg-[color:var(--color-todoist-red-light1)];
+}
+
+.bg-todoist-red-light2 {
+  @apply bg-[color:var(--color-todoist-red-light2)];
+}
+
+.bg-todoist-red-lighter {
+  @apply bg-[color:var(--color-todoist-red-lighter)];
+}
+
+.bg-todoist-gray {
+  @apply bg-[color:var(--color-hover-gray)];
+}
+
+.bg-hover-gray {
+  @apply bg-[color:var(--color-hover-gray)];
+}
+
+.text-todoist-black {
+  @apply text-[color:var(--color-text-black)];
+}
+
+.text-todoist-darkgray {
+  @apply text-[color:var(--color-todoist-darkgray)];
+}
+
+.text-todoist-textdark {
+  @apply text-[color:var(--color-todoist-textdark)];
+}
+
+.bg-todoist-lightgray {
+  @apply bg-[color:var(--color-todoist-lightgray)];
+}
